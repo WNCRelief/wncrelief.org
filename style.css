@@ -38,15 +38,21 @@ p {
 footer {
     background-color: #27343D;
     padding: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     bottom: 0;
-    width: 100%;
 }
 
 footer p {
     font-size: 18px;
     margin: 0;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer a {
