@@ -35,7 +35,8 @@ p {
 .links {
     margin: 30px 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column; /* Make buttons vertical for people.html */
+    align-items: center; /* Centers the links */
 }
 
 .links a {
@@ -43,9 +44,9 @@ p {
     color: #40adc2; /* Light blue color */
     font-weight: bold;
     text-decoration: none;
-    margin: 0 20px; /* Adjusted for equal horizontal spacing */
-    padding: 12px 30px; /* Adding padding to make the links feel like buttons */
-    border-radius: 5px; /* Adding subtle rounded corners */
+    padding: 12px 30px; /* Adding padding for button look */
+    margin: 10px 0; /* Adding vertical spacing */
+    border-radius: 5px; /* Rounded corners */
     background-color: transparent; /* No background initially */
     transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
@@ -78,4 +79,3 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
