@@ -24,18 +24,17 @@ header h1 {
 }
 
 h2 {
-    font-size: 30px;
-    margin-top: 10px;
-    color: #f6bf2f; /* Highlighted "Mission" word */
-    font-weight: bold;
+    font-size: 36px;
+    color: #40adc2;
+    margin-bottom: 10px; /* Reduce bottom margin to decrease space */
 }
 
 section p {
     font-size: 18px;
-    margin: 20px auto;
+    margin: 10px auto; /* Adjusted margin to reduce spacing */
     width: 60%;
     line-height: 1.6;
-    color: white; /* Keeping description text white */
+    color: white;
 }
 
 /* Styling for buttons and centering them horizontally */
