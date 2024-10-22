@@ -22,7 +22,7 @@ section p {
     margin: 20px auto;
     width: 60%;
     line-height: 1.6;
-    color: white; /* Keeping description text white */
+    color: white;
 }
 
 /* Styling for buttons and centering them vertically */
@@ -74,3 +74,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
