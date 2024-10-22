@@ -20,7 +20,7 @@ header img {
 h2 {
     font-size: 28px;
     margin-top: 40px;
-    color: #f6bf2f; /* Highlighted mission word */
+    color: #f6bf2f; /* Highlighted "Mission" word */
     font-weight: bold;
 }
 
@@ -37,11 +37,11 @@ p {
 }
 
 .links a {
-    font-size: 28px;
-    color: #40adc2; /* For People, Partners, Projects */
+    font-size: 28px; /* Matching size with "Mission" */
+    color: #40adc2; /* Light blue color */
     font-weight: bold;
     text-decoration: none;
-    margin: 10px 20px;
+    margin: 10px 10px; /* Reduced spacing between the links */
 }
 
 .links a:hover {
@@ -71,4 +71,3 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
-
