@@ -8,12 +8,12 @@ body {
 }
 
 header {
-    padding: 25px;
+    padding: 12.5px; /* Reduced padding by half */
     background-color: #27343D; /* Matches the rest of the site */
 }
 
 header img {
-    width: 300px; /* Adjusted smaller size for the logo */
+    width: 240px; /* Reduced size by 20% */
     height: auto;
 }
 
@@ -26,7 +26,7 @@ header h1 {
 h2 {
     font-size: 36px;
     color: #40adc2;
-    margin-bottom: 10px; /* Reduce bottom margin to decrease space */
+    margin-bottom: 10px; /* Reduced bottom margin to decrease space */
 }
 
 .highlighted {
@@ -48,7 +48,7 @@ section p {
     display: flex;
     flex-direction: row; /* Horizontal layout for buttons */
     justify-content: center; /* Centering buttons */
-    gap: 15px; /* Adds space between buttons */
+    gap: 11px; /* Reduced space between buttons by 25% */
 }
 
 .links a {
