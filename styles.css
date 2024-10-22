@@ -24,7 +24,7 @@ header h1 {
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 30px;
     margin-top: 40px;
     color: #f6bf2f; /* Highlighted "Mission" word */
     font-weight: bold;
@@ -44,7 +44,7 @@ section p {
     display: flex;
     flex-direction: row; /* Horizontal layout for buttons */
     justify-content: center; /* Centering buttons */
-    gap: 20px; /* Adds space between buttons */
+    gap: 15px; /* Adds space between buttons */
 }
 
 .links a {
