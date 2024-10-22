@@ -2,29 +2,23 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #27343D;
-    color: white;
+    background-color: #27343D; /* Background color applied */
+    color: white; /* Text color applied */
     text-align: center;
 }
 
 header {
     padding: 50px;
-    background-color: #27343D;
+    background-color: #27343D; /* Matches the rest of the site */
 }
 
-header img {
-    width: 300px;
-    height: auto;
+header h1 {
+    font-size: 36px;
+    color: #40adc2; /* Light blue text color for the header */
+    margin-top: 20px;
 }
 
-h2 {
-    font-size: 28px;
-    margin-top: 40px;
-    color: #f6bf2f; /* Highlighted "Mission" word */
-    font-weight: bold;
-}
-
-p {
+section p {
     font-size: 18px;
     margin: 20px auto;
     width: 60%;
@@ -32,28 +26,30 @@ p {
     color: white; /* Keeping description text white */
 }
 
+/* Styling for buttons and centering them vertically */
 .links {
     margin: 30px 0;
     display: flex;
-    flex-direction: column; /* Make buttons vertical for people.html */
+    flex-direction: column;
     align-items: center; /* Centers the links */
 }
 
 .links a {
-    font-size: 28px; /* Matching size with "Mission" */
-    color: #40adc2; /* Light blue color */
+    display: inline-block;
+    background-color: #40adc2; /* Light blue background for buttons */
+    color: white; /* White text color */
     font-weight: bold;
-    text-decoration: none;
-    padding: 12px 30px; /* Adding padding for button look */
-    margin: 10px 0; /* Adding vertical spacing */
+    font-size: 20px; /* Adjusted size for button text */
+    padding: 12px 30px; /* Padding for button feel */
     border-radius: 5px; /* Rounded corners */
-    background-color: transparent; /* No background initially */
-    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    text-decoration: none;
+    margin: 10px 0; /* Spacing between buttons (vertically) */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
 }
 
+/* Hover effect for buttons */
 .links a:hover {
-    background-color: #3498db; /* Light blue background on hover */
-    color: white; /* Invert text color for contrast on hover */
+    background-color: #3498db; /* Darker blue on hover */
 }
 
 footer {
