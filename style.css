@@ -34,18 +34,26 @@ p {
 
 .links {
     margin: 30px 0;
+    text-align: center;
 }
 
+/* Button styles for People, Partners, Projects */
 .links a {
-    font-size: 28px; /* Matching size with "Mission" */
-    color: #40adc2; /* Light blue color */
+    display: inline-block;
+    background-color: #40adc2; /* Light blue background */
+    color: white; /* White text color */
     font-weight: bold;
+    font-size: 20px; /* Adjusted size for button text */
+    padding: 12px 30px; /* Padding for button feel */
+    border-radius: 5px; /* Rounded corners */
     text-decoration: none;
-    margin: 10px 10px; /* Reduced spacing between the links */
+    margin: 10px; /* Spacing between buttons */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
 }
 
+/* Hover effect for buttons */
 .links a:hover {
-    text-decoration: underline;
+    background-color: #3498db; /* Darker blue on hover */
 }
 
 footer {
