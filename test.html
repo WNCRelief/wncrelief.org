@@ -13,18 +13,23 @@
             margin-top: 20px;
         }
 
-        /* Reduced spacing between the links */
+        /* Button styles for People, Partners, Projects */
         .links a {
-            margin-right: 20px; /* Reduced from 40px */
-            text-decoration: none;
-            color: #40adc2; /* Light blue color */
+            display: inline-block;
+            background-color: #40adc2; /* Light blue background */
+            color: white; /* White text color */
             font-weight: bold;
-            font-size: 28px; /* Same size as "Mission" */
+            font-size: 20px; /* Adjusted size for button text */
+            padding: 12px 30px; /* Padding for button feel */
+            border-radius: 5px; /* Rounded corners */
+            text-decoration: none;
+            margin: 10px; /* Spacing between buttons */
+            transition: background-color 0.3s ease; /* Smooth hover transition */
         }
 
-        /* Remove the last margin for the last link */
-        .links a:last-child {
-            margin-right: 0;
+        /* Hover effect for buttons */
+        .links a:hover {
+            background-color: #3498db; /* Darker blue on hover */
         }
     </style>
 </head>
@@ -39,7 +44,7 @@
         <p>WNC Relief is committed to providing direct support and assistance to individuals in need while strengthening our non-profit partners through collaborative efforts. Our <span class="highlighted">mission</span> is to create a network of care that uplifts our communities by offering essential resources, financial assistance, and support services.</p>
     </section>
 
-    <!-- Centered Links Section -->
+    <!-- Centered Links Section as Buttons -->
     <div class="links">
         <a href="people.html" class="highlighted">People</a>
         <a href="partners.html" class="highlighted">Partners</a>
