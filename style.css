@@ -26,12 +26,13 @@ section p {
     color: white; /* Keeping description text white */
 }
 
-/* Styling for buttons and centering them vertically */
+/* Styling for buttons and centering them horizontally */
 .links {
     margin: 30px 0;
     display: flex;
-    flex-direction: column;
-    align-items: center; /* Centers the links */
+    flex-direction: row; /* Changed from column to row for horizontal layout */
+    justify-content: center; /* Centering buttons */
+    gap: 20px; /* Adds space between buttons */
 }
 
 .links a {
@@ -43,7 +44,6 @@ section p {
     padding: 12px 30px; /* Padding for button feel */
     border-radius: 5px; /* Rounded corners */
     text-decoration: none;
-    margin: 10px 0; /* Spacing between buttons (vertically) */
     transition: background-color 0.3s ease; /* Smooth hover transition */
 }
 
