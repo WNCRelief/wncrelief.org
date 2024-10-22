@@ -12,9 +12,16 @@ header {
     background-color: #27343D;
 }
 
-h1 {
-    font-size: 36px;
-    margin-top: 20px;
+header img {
+    width: 300px;
+    height: auto;
+}
+
+h2 {
+    font-size: 28px;
+    margin-top: 40px;
+    color: #f6bf2f; /* Highlighted mission word */
+    font-weight: bold;
 }
 
 p {
@@ -22,7 +29,7 @@ p {
     margin: 20px auto;
     width: 60%;
     line-height: 1.6;
-    color: white;
+    color: white; /* Keeping description text white */
 }
 
 .links {
@@ -30,18 +37,15 @@ p {
 }
 
 .links a {
-    display: inline-block;
-    font-size: 18px;
-    color: white;
+    font-size: 28px;
+    color: #40adc2; /* For People, Partners, Projects */
+    font-weight: bold;
     text-decoration: none;
     margin: 10px 20px;
-    padding: 10px 20px;
-    background-color: #3498db;
-    border-radius: 5px;
 }
 
 .links a:hover {
-    background-color: #2980b9;
+    text-decoration: underline;
 }
 
 footer {
@@ -51,8 +55,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 0;
 }
 
 footer p {
@@ -69,3 +71,4 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
