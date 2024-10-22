@@ -29,6 +29,11 @@ h2 {
     margin-bottom: 10px; /* Reduce bottom margin to decrease space */
 }
 
+.highlighted {
+    color: #f7bc32; /* Color for "MISSION" */
+    font-weight: bold;
+}
+
 section p {
     font-size: 18px;
     margin: 10px auto; /* Adjusted margin to reduce spacing */
