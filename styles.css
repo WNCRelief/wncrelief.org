@@ -8,9 +8,10 @@ body {
 }
 
 header {
-    padding: 12.5px; /* Reduced padding by half */
+    padding: 6.25px; /* Reduced padding by 50% */
     background-color: #27343D; /* Matches the rest of the site */
 }
+
 
 header img {
     width: 240px; /* Reduced size by 20% */
