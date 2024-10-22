@@ -6,6 +6,32 @@
     <meta name="description" content="WNC Relief is dedicated to providing direct support and assistance to individuals in need and strengthening our non-profit partners through collaborative efforts.">
     <title>WNC Relief</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* Center alignment for the links section */
+        .links {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Button styles for People, Partners, Projects */
+        .links a {
+            display: inline-block;
+            background-color: #40adc2; /* Light blue background */
+            color: white; /* White text color */
+            font-weight: bold;
+            font-size: 20px; /* Adjusted size for button text */
+            padding: 12px 30px; /* Padding for button feel */
+            border-radius: 5px; /* Rounded corners */
+            text-decoration: none;
+            margin: 10px; /* Spacing between buttons */
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+        }
+
+        /* Hover effect for buttons */
+        .links a:hover {
+            background-color: #3498db; /* Darker blue on hover */
+        }
+    </style>
 </head>
 <body>
 
@@ -14,9 +40,16 @@
     </header>
 
     <section>
-        <h2>Mission</h2>
-        <p>WNC Relief is committed to providing direct support and assistance to individuals in need while strengthening our non-profit partners through collaborative efforts. Our mission is to create a network of care that uplifts our communities by offering essential resources, financial assistance, and support services.</p>
+        <h2 class="highlighted">Mission</h2>
+        <p>WNC Relief is committed to providing direct support and assistance to individuals in need while strengthening our non-profit partners through collaborative efforts. Our <span class="highlighted">mission</span> is to create a network of care that uplifts our communities by offering essential resources, financial assistance, and support services.</p>
     </section>
+
+    <!-- Centered Links Section as Buttons -->
+    <div class="links">
+        <a href="people.html" class="highlighted">People</a>
+        <a href="partners.html" class="highlighted">Partners</a>
+        <a href="projects.html" class="highlighted">Projects</a>
+    </div>
 
     <footer>
         <p>Email: <a href="mailto:info@wncrelief.org">info@wncrelief.org</a></p>
