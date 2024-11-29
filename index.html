@@ -7,42 +7,6 @@
     <title>WNC Relief</title>
     <link rel="stylesheet" href="styles.css"> <!-- Correct reference to styles.css -->
     <style>
-        /* Center alignment for the links section */
-        .links {
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        /* Button styles for People, Partners, Projects */
-        .links a {
-            display: inline-block;
-            background-color: #40adc2; /* Light blue background */
-            color: white; /* White text color */
-            font-weight: bold;
-            font-size: 20px; /* Adjusted size for button text */
-            padding: 12px 30px; /* Padding for button feel */
-            border-radius: 5px; /* Rounded corners */
-            text-decoration: none;
-            margin: 10px; /* Spacing between buttons */
-            transition: background-color 0.3s ease; /* Smooth hover transition */
-        }
-
-        /* Hover effect for buttons */
-        .links a:hover {
-            background-color: #3498db; /* Darker blue on hover */
-        }
-
-        /* Highlighted class for header "MISSION" */
-        .highlighted-header {
-            color: #f7bc32; /* Updated color for the header "MISSION" */
-            font-weight: bold;
-        }
-
-        /* Regular text for description "mission" */
-        .regular-text {
-            color: white; /* Keeps the description text white */
-        }
-
         /* Styles for PayPal donate button */
         .pp-5H9XY62JHY4JW {
             text-align: center;
@@ -62,20 +26,8 @@
 
         .donate-section {
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            justify-content: center;
             margin: 20px 0;
-            text-align: center;
-            gap: 1rem;
-        }
-
-        .donate-section img {
-            width: auto;
-            height: 1rem;
-        }
-
-        .donate-section section {
-            font-size: 0.875rem;
         }
     </style>
 </head>
@@ -97,12 +49,10 @@
         <a href="projects.html" class="highlighted-header">Projects</a>
     </div>
 
-    <!-- PayPal Donate Button Section -->
+    <!-- Simplified PayPal Donate Button -->
     <div class="donate-section">
         <form action="https://www.paypal.com/ncp/payment/5H9XY62JHY4JW" method="post" target="_top">
             <input class="pp-5H9XY62JHY4JW" type="submit" value="Donate Here" />
-            <img src="https://www.paypalobjects.com/images/Debit_Credit_APM.svg" alt="Accepted Payment Methods" />
-            <section>Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="PayPal Logo" /></section>
         </form>
     </div>
 
